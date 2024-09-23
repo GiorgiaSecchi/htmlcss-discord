@@ -100,20 +100,43 @@ body {
 .hero-section {
   display: flex;
   justify-content: center;
+  height: 590px;
 
   padding: 10px 0;
   /* background-color: #180086; */
+}
+
+.hero-image {
   background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 .hero-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 800px;
   /* background-color: #e683e9; */
   min-height: 400px;
+}
+
+.btn-hero {
+  padding: 12px 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px 0 10px;
+}
+
+.btn-hero.btn-white {
+  background-color: white;
+}
+
+.btn-hero.btn-black {
+  background-color: black;
+  color: white;
 }
 
 /* MAIN */
