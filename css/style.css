@@ -160,6 +160,10 @@ body {
   padding: 100px 0;
 }
 
+/* .card-img {
+  background-image: url(../img/wave.svg);
+} */
+
 .card-section > .container {
   display: flex;
 }
