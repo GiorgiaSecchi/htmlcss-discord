@@ -31,13 +31,15 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1080px;
-  max-width: 100%;
+  max-width: 1080px;
+  /* width: 1080px;
+  max-width: 100%; */
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .title.title-hero {
@@ -48,12 +50,24 @@ body {
   color: black;
 }
 
+.text {
+  line-height: 30px;
+}
+
+.text.text-hero {
+  color: white;
+}
+
+.text.text-card {
+  color: black;
+}
+
 /* HEADER */
 
 .upper-header {
   /* background-color: #acd6e4; */
   background-color: #425ce6;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 
 .upper-header > .container {
@@ -100,9 +114,9 @@ body {
 .hero-section {
   display: flex;
   justify-content: center;
-  height: 590px;
+  height: 705px;
 
-  padding: 10px 0;
+  /* padding: 10px 0; */
   /* background-color: #180086; */
 }
 
@@ -119,15 +133,16 @@ body {
   margin: auto;
   width: 800px;
   /* background-color: #e683e9; */
-  min-height: 400px;
+  /* min-height: 400px; */
 }
 
 .btn-hero {
-  padding: 12px 12px;
+  padding: 12px 15px 12px 15px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
   margin: 0 10px 0 10px;
+  font-size: 1em;
 }
 
 .btn-hero.btn-white {
@@ -142,7 +157,7 @@ body {
 /* MAIN */
 
 .card-section {
-  padding: 45px 0;
+  padding: 100px 0;
 }
 
 .card-section > .container {
@@ -157,8 +172,9 @@ body {
 
 .card-section .small-col {
   flex-basis: 40%;
-  background-color: #f9bfcb;
+  /* background-color: #f9bfcb; */
   min-height: 400px;
+  padding: 15px;
 }
 
 .card-section:nth-child(even) {
