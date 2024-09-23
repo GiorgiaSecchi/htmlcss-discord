@@ -154,6 +154,11 @@ body {
   color: white;
 }
 
+.btn-hero.btn-blue {
+  background-color: cornflowerblue;
+  color: white;
+}
+
 /* MAIN */
 
 .card-section {
