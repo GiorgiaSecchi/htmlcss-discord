@@ -56,11 +56,17 @@ grigio scuro #232629 */
 /* HERO SECTION */
 
 .hero-section {
+  display: flex;
+  justify-content: center;
+
   padding: 45px 0;
   background-color: #180086;
 }
 
 .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   width: 800px;
   background-color: #e683e9;
