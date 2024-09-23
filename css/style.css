@@ -53,7 +53,21 @@ grigio scuro #232629 */
   text-align: right;
 }
 
-.upper/* UTILS
+/* HERO SECTION */
+
+.hero-section {
+  padding: 45px 0;
+  background-color: #180086;
+}
+
+.hero-container {
+  margin: auto;
+  width: 800px;
+  background-color: #e683e9;
+  min-height: 400px;
+}
+
+/* UTILS
 
 .container {
   margin: 0 auto;
@@ -255,4 +269,4 @@ header {
 
 .foot-buttom {
   background-color: #f4c0cb;
-} */;
+} */
