@@ -61,6 +61,13 @@ img {
   color: white;
 }
 
+.header-button {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
 /* HERO SECTION */
 
 .hero-section {
@@ -79,9 +86,6 @@ img {
   width: 800px;
   background-color: #e683e9;
   min-height: 400px;
-}
-
-.hero-img {
 }
 
 /* MAIN */
