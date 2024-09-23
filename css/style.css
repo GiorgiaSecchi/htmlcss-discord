@@ -18,6 +18,10 @@ grigio scuro #232629 */
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* UTILS */
 
 .container {
