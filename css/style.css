@@ -201,12 +201,8 @@ body {
   /* background-color: darkgreen; */
 }
 
-.single-col {
-  display: flex;
-}
-
 img[alt*="item4-big"] {
-  width: 1000px;
+  width: 1080px;
 }
 
 /* FOOTER */
