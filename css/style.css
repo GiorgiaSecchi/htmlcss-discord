@@ -27,7 +27,33 @@ grigio scuro #232629 */
   max-width: 100%;
 }
 
-/* UTILS
+/* HEADER */
+
+.upper-header {
+  background-color: #acd6e4;
+  padding: 15px 0;
+}
+
+.upper-header > .container {
+  display: flex;
+}
+
+.upper-header .header-item {
+  background-color: goldenrod;
+  flex-basis: 20%;
+  padding: 5px 10px;
+}
+
+.upper-header .nav-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.upper-header .login-container {
+  text-align: right;
+}
+
+.upper/* UTILS
 
 .container {
   margin: 0 auto;
@@ -229,4 +255,4 @@ header {
 
 .foot-buttom {
   background-color: #f4c0cb;
-} */
+} */;
