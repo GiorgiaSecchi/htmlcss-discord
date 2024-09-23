@@ -97,6 +97,15 @@ grigio scuro #232629 */
   flex-direction: row-reverse;
 }
 
+/* CARD GREEN */
+
+.card-section.single-col > .container {
+  background-color: darkgreen;
+  min-height: 800px;
+}
+
+FOOTER
+
 /* UTILS
 
 .container {
