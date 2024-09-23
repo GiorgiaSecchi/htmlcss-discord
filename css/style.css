@@ -157,6 +157,7 @@ body {
 .btn-hero.btn-blue {
   background-color: cornflowerblue;
   color: white;
+  margin-top: 30px;
 }
 
 /* MAIN */
@@ -208,6 +209,23 @@ body {
 
 img[alt*="item4-big"] {
   width: 1080px;
+}
+
+.img-stars {
+  background-image: url(../img/stars.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-stars {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  padding-bottom: 10px;
+  align-items: end;
+
+  font-size: 22px;
 }
 
 /* FOOTER */
