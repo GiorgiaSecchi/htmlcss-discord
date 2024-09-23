@@ -41,6 +41,7 @@ img {
 
 .upper-header > .container {
   display: flex;
+  align-items: center;
 }
 
 .upper-header .header-item {
@@ -51,9 +52,12 @@ img {
 }
 
 .upper-header .nav-container {
-  flex-grow: 1;
   text-align: center;
   color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
 }
 
 .upper-header .login-container {
@@ -74,7 +78,7 @@ img {
   display: flex;
   justify-content: center;
 
-  /* padding: 45px 0; */
+  padding: 45px 0;
   background-color: #180086;
 }
 
