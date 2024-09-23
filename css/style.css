@@ -192,8 +192,21 @@ body {
 /* CARD GREEN */
 
 .card-section.single-col > .container {
-  background-color: darkgreen;
   min-height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: darkgreen; */
+}
+
+.single-col {
+  display: flex;
+}
+
+img[alt*="item4-big"] {
+  width: 1000px;
 }
 
 /* FOOTER */
