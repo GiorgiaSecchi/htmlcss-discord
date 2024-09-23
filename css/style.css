@@ -104,7 +104,23 @@ grigio scuro #232629 */
   min-height: 800px;
 }
 
-FOOTER
+/* FOOTER */
+
+.footer-section > .container {
+  display: flex;
+}
+
+.footer-section .big-col {
+  flex-basis: 70%;
+  background-color: #46ada6;
+  min-height: 500px;
+}
+
+.footer-section .small-col {
+  flex-basis: 30%;
+  background-color: #e58382;
+  min-height: 500px;
+}
 
 /* UTILS
 
